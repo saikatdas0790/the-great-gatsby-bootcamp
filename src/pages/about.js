@@ -1,18 +1,15 @@
 import React from "react";
 import { Link } from "gatsby";
-import Footer from "../components/footer";
-import Header from "../components/header";
+import Layout from "../components/layout";
 
 const AboutPage = () => (
-  <>
-    <Header />
+  <Layout>
     <h1>About Me</h1>
     <p>I work as a Product Manager now</p>
     <p>
       Want to work with me? <Link to="/contact">Reach out</Link>
     </p>
-    <Footer />
-  </>
+  </Layout>
 );
 
 export default AboutPage;
