@@ -39,8 +39,8 @@ const BlogPage = () => {
             <li key={id}>
               <Link to={`/blog/${slug}`}>
                 <h2>{title}</h2>
+                <p>{date}</p>
               </Link>
-              <p>{date}</p>
             </li>
           )
         )}
